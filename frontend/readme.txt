@@ -32,3 +32,8 @@ npm add axios
 
 criar a pasta services dentro do src
 dentro criar o arquivo api.js
+importar a api dentro do app.js
+
+//Rotas ReactJS
+
+yarn add react-router-dom

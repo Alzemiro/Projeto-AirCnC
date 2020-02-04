@@ -14,7 +14,7 @@ const routes = express.Router();
 const upload = multer(uploadConfig);
 
 //definição das rotas, juntamente importando o metodo do constroller
-routes.post('/sessions', SessionController.store);
+routes.post('/session', SessionController.store);
 routes.get('/spots', SpotController.index);
 routes.post('/spots', upload.single('thumbnail'),SpotController.store);
 routes.get('/dashboard', DashboardController.show);
