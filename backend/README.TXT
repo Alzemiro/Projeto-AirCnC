@@ -100,4 +100,3 @@ CONTROLLERS - onde vai ficar as regras de nogocio (até o momento que ficar muit
 npm add multer
 criar pasta config
 criar o arquivo upload.js
-s
